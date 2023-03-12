@@ -19,7 +19,9 @@ pycharm project - settings - python interpreter - add interpreter / local - virt
 
 
 ## Console
-
+### Create tables
+python create_db.py
+### Start app
 uvicorn main:app --reload
 
 
@@ -33,4 +35,6 @@ new_item=Item(name="Milk",price=2,description="Nice milk",on_offer=True)
 
 python create_db.py
 
+## Furter info
+https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/
 
